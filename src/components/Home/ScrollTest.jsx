@@ -14,14 +14,16 @@ const testimonials = [
     author: "Andrew Beveridge",
   },
   {
-    quote: "My brother has just had his car done, very professional, excellent service, would highly recommend them.",
+    quote: "I've been using DT Valeting for my car cleaning needs, and I can't recommend them enough. Dan does an amazing job every single time, ensuring my car looks its absolute best. He's not only meticulous with cleaning but has also carried out machine polishes and ceramic coatings with exceptional skill. Dan is the only person I trust with my vehicle now. So much so, I have him look after my car every month without fail. If you want someone reliable and skilled to take care of your car, DT Valeting is the way to go.",
     author: "tracey lloyd",
   },
   {
     quote:
-      "Excellent service had 2 cars in there and no problems as of yet got my next car ready to go in",
-    author: "BMJ Killeen",
+      " Danny has valeted both mine and my husband’s cars. He was punctual, works hard and does a very thorough job. Both cars were immaculate by the time Danny had finished working on them. We will definitely be booking him in the future.",
+    author: "Julia Ingham",
   },
+
+ 
 ];
 
 const ScrollingTestimonials = () => {

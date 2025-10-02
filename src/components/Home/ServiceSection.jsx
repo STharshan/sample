@@ -129,7 +129,7 @@ const ServiceSection = () => {
 
 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-overlay dark:bg-overlay/70 hover:bg-overlay/60 dark:hover:bg-overlay/50 transition-all duration-300"></div>
+                <div className="absolute inset-0 bg-overlay dark:text-lite dark:bg-overlay/70 hover:bg-overlay/60 dark:hover:bg-overlay/50 transition-all duration-300"></div>
 
                 {/* Text */}
                 <div className="absolute bottom-0 p-5 z-10">
@@ -138,7 +138,7 @@ const ServiceSection = () => {
                   </h3>
                   <p className="text-sm text-white mb-4">{service.desc}</p>
                   <Link to={service.path}>
-                    <button className="mt-auto px-4 py-2 text-xs border border-light rounded-full font-semibold cursor-pointer
+                    <button className="mt-auto px-4 py-2 text-xs  border border-light rounded-full font-semibold cursor-pointer
                       bg-overlay dark:bg-overlay/30 hover:bg-primary dark:hover:bg-primary
                       text-primary dark:text-primary hover:text-dark transition-all duration-300"
                     >
